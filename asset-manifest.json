@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/la_maison_de_la_jungle/static/css/main.e3b43557.css",
+    "main.js": "/la_maison_de_la_jungle/static/js/main.cf66d69f.js",
+    "static/js/787.f8d5bdf3.chunk.js": "/la_maison_de_la_jungle/static/js/787.f8d5bdf3.chunk.js",
+    "static/media/olivier.jpg": "/la_maison_de_la_jungle/static/media/olivier.b2908b40d9fb7f86626b.jpg",
+    "static/media/basil.jpg": "/la_maison_de_la_jungle/static/media/basil.be00474e950eb5af0054.jpg",
+    "static/media/cactus.jpg": "/la_maison_de_la_jungle/static/media/cactus.a71c2062a926cb3d5db8.jpg",
+    "static/media/pothos.jpg": "/la_maison_de_la_jungle/static/media/pothos.d72dc0ac2f240d84c9d7.jpg",
+    "static/media/monstera.jpg": "/la_maison_de_la_jungle/static/media/monstera.ec0819da398bc9469040.jpg",
+    "static/media/lyrata.jpg": "/la_maison_de_la_jungle/static/media/lyrata.2e915120c952bdb7066c.jpg",
+    "static/media/mint.jpg": "/la_maison_de_la_jungle/static/media/mint.b83a3d2e0c1c1cda808a.jpg",
+    "static/media/calathea.jpg": "/la_maison_de_la_jungle/static/media/calathea.455c33e2bd3e5509c907.jpg",
+    "static/media/logo.png": "/la_maison_de_la_jungle/static/media/logo.7f06c3b2fcd383806577.png",
+    "static/media/succulent.jpg": "/la_maison_de_la_jungle/static/media/succulent.f4329849930298a9e46b.jpg",
+    "static/media/nav-icon2.png": "/la_maison_de_la_jungle/static/media/nav-icon2.08e4d7eda89dd8ef7d91.png",
+    "static/media/logoMg.png": "/la_maison_de_la_jungle/static/media/logoMg.56fc6cb2b16e5bc623c2.png",
+    "static/media/sun.svg": "/la_maison_de_la_jungle/static/media/sun.26fb5ace82c593ca64a695a4d42b0568.svg",
+    "static/media/water.svg": "/la_maison_de_la_jungle/static/media/water.cceb486fe1f26063bde712aa9fd7ea1e.svg",
+    "index.html": "/la_maison_de_la_jungle/index.html",
+    "static/media/nav-icon1.svg": "/la_maison_de_la_jungle/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
+    "main.e3b43557.css.map": "/la_maison_de_la_jungle/static/css/main.e3b43557.css.map",
+    "main.cf66d69f.js.map": "/la_maison_de_la_jungle/static/js/main.cf66d69f.js.map",
+    "787.f8d5bdf3.chunk.js.map": "/la_maison_de_la_jungle/static/js/787.f8d5bdf3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3b43557.css",
+    "static/js/main.cf66d69f.js"
+  ]
+}
