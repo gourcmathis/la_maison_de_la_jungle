@@ -9,12 +9,13 @@ function Banner() {
   const cart = useSelector((state) => state.cart);
 
   const nbTotal =
-    cart.length > 0 && cart.reduce((acc, curr) => parseInt(acc) + parseInt(curr.amount), 0);
+    cart.length > 0 &&
+    cart.reduce((acc, curr) => parseInt(acc) + parseInt(curr.amount), 0);
 
   return (
     <Navbar expand="md" className="lmj-banner">
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="/la_maison_de_la_jungle">
           <img className="lmj-logo" src={logo} alt="logo" />
         </Navbar.Brand>
         <h1 className="lmj-title">La maison de la Jungle</h1>
@@ -26,9 +27,10 @@ function Banner() {
           }
         >
           <BagFill color="white" size={40} />
-          <div className="draggable"><b>{nbTotal ? nbTotal : 0}</b></div>
+          <div className="draggable">
+            <b>{nbTotal ? nbTotal : 0}</b>
+          </div>
         </button>
-        
       </Container>
     </Navbar>
   );
