@@ -1,0 +1,52 @@
+.lmj-banner {
+	color: #fefae0;
+	background-image:-webkit-linear-gradient(top, #7f5539 0%, #503625        100%);
+    background-image: linear-gradient(to bottom, #7f5539 0%, #503625 100%);
+	text-align: left;
+	display: flex;
+	padding: 0 !important;
+}
+
+a {
+	margin: 0!important;
+	padding-bottom: 0!important;
+}
+
+button .draggable
+{
+    display: inline-block;
+ 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    color: #503625;
+    background-color: #fefae0;
+ 
+    width: 30px;
+    height: 30px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+ 
+    text-align: center;
+    line-height: 2em;
+    font-size: 1em;
+	position: absolute;
+	top: -20px;
+}
+
+
+.lmj-logo {
+	height: 65px;
+	width: 75px;
+	color: #466d26;
+	z-index: 9999;
+	padding: 10px;
+}
+
+nav.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+  }
+
