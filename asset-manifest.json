@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/la_maison_de_la_jungle/static/css/main.e3b43557.css",
+    "main.css": "/la_maison_de_la_jungle/static/css/main.81f38827.css",
     "main.js": "/la_maison_de_la_jungle/static/js/main.cacf9d21.js",
     "static/js/787.f8d5bdf3.chunk.js": "/la_maison_de_la_jungle/static/js/787.f8d5bdf3.chunk.js",
     "static/media/olivier.jpg": "/la_maison_de_la_jungle/static/media/olivier.b2908b40d9fb7f86626b.jpg",
@@ -19,12 +19,12 @@
     "static/media/water.svg": "/la_maison_de_la_jungle/static/media/water.cceb486fe1f26063bde712aa9fd7ea1e.svg",
     "index.html": "/la_maison_de_la_jungle/index.html",
     "static/media/nav-icon1.svg": "/la_maison_de_la_jungle/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.e3b43557.css.map": "/la_maison_de_la_jungle/static/css/main.e3b43557.css.map",
+    "main.81f38827.css.map": "/la_maison_de_la_jungle/static/css/main.81f38827.css.map",
     "main.cacf9d21.js.map": "/la_maison_de_la_jungle/static/js/main.cacf9d21.js.map",
     "787.f8d5bdf3.chunk.js.map": "/la_maison_de_la_jungle/static/js/787.f8d5bdf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3b43557.css",
+    "static/css/main.81f38827.css",
     "static/js/main.cacf9d21.js"
   ]
 }
