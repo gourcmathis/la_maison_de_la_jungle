@@ -1,5 +1,5 @@
 {
-  "homepage":"https://gourcmathis.github.io/la_maison_de_la_jungle",
+  "homepage": "https://gourcmathis.github.io/la_maison_de_la_jungle",
   "name": "la-maison-jungle-redux",
   "version": "0.1.0",
   "private": true,
@@ -8,8 +8,13 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
+    "autoprefixer": "^10.4.12",
     "bootstrap": "^5.2.1",
+    "gulp-postcss": "^9.0.1",
     "mdb-react-ui-kit": "^4.2.0",
+    "postcss": "^8.4.17",
+    "postcss-cli": "^10.0.0",
+    "postcss-nested": "^5.0.6",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-icons": "^1.9.1",
@@ -36,17 +41,15 @@
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      "since 2010"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "since 2010"
     ]
   },
   "devDependencies": {
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0"
   }
 }

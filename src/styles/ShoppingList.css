@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
 
 .lmj-shopping-list {
@@ -8,9 +15,14 @@
 .lmj-plant-list {
 	list-style-type: none;
 	padding: 32px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 }
 
 .lmj-plant-list button {
@@ -37,18 +49,34 @@
 	z-index: -1;
 	background-color: #e49ba5;
 
+	-webkit-transition: -webkit-transform 300ms ease-in-out;
+
+	transition: -webkit-transform 300ms ease-in-out;
+
+	-o-transition: transform 300ms ease-in-out;
+
 	transition: transform 300ms ease-in-out;
-	transform: scaleX(0);
-	transform-origin: left;
+
+	transition: transform 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
+	-webkit-transform: scaleX(0);
+	    -ms-transform: scaleX(0);
+	        transform: scaleX(0);
+	-webkit-transform-origin: left;
+	    -ms-transform-origin: left;
+	        transform-origin: left;
 
   }
   
   .lmj-plant-list button:hover::before,
   .lmj-plant-list button:focus::before {
-	transform: scaleX(1);
+	-webkit-transform: scaleX(1);
+	    -ms-transform: scaleX(1);
+	        transform: scaleX(1);
   }
   
   .lmj-plant-list button {
+	-webkit-transition: color 300ms ease-in-out;
+	-o-transition: color 300ms ease-in-out;
 	transition: color 300ms ease-in-out;
 	z-index: 0;
   }
@@ -63,33 +91,48 @@
 	background-color: #FFEEDD;
 	margin: 10px;
 	border-radius: 7%;
-	transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	        transform-style: preserve-3d;
+	-webkit-transition: -webkit-transform 0.8s cubic-bezier(0.86,0,0.07,1);
+	transition: -webkit-transform 0.8s cubic-bezier(0.86,0,0.07,1);
+	-o-transition: transform 0.8s cubic-bezier(0.86,0,0.07,1);
 	transition: transform 0.8s cubic-bezier(0.86,0,0.07,1);
+	transition: transform 0.8s cubic-bezier(0.86,0,0.07,1), -webkit-transform 0.8s cubic-bezier(0.86,0,0.07,1);
 	padding: 5px;
 }
 
+
 .card-wrapper:hover #cards{
-	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	        transform: rotateY(180deg);
 }
 
 .card-wrapper {
 
-	perspective: 2000px;
-	perspective-origin: center;
+	-webkit-perspective: 2000px;
+
+	        perspective: 2000px;
+	-webkit-perspective-origin: center;
+	        perspective-origin: center;
 }
 
 .card-front, .card-back {
-	backface-visibility: hidden;
 	-webkit-backface-visibility: hidden;
+	        backface-visibility: hidden;
 }
 .card-back {
 	height: 100%;
 	width: 100%;
 	padding-left: 15px;
 	padding-right: 15px;
-	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	        transform: rotateY(180deg);
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	align-items: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	position: fixed;
 	text-align: center;
 	top: 0 !important;
